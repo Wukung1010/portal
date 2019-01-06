@@ -10,10 +10,10 @@
       <Content>
         <Layout style="height: 100%">
           <div style="height: 40px">
-            <tag :list="getTagList()" :current="getCurrentTag()" @changeTag="changeTag"/>
+            <tag :list="getTagList()" :current="getCurrentTag()" @changeTag="changeTag" @closeTag="closeTag"/>
           </div>
           <Content style="height: calc(100% - 40px)">
-            <ground :currentRouter="getCurrentRouter()"/>
+            <ground :currentRouter="getCurrentRouter()" :installedApps="getInstalledApps()"/>
           </Content>
         </Layout>
       </Content>
@@ -53,17 +53,29 @@ export default {
       return names
     }
   },
+  watch: {
+    '$store.state.MenuModule.current' (newVal) {
+      let router = this.getAppRouterConfig(newVal.id)
+      this.setRouter(router)
+    },
+    '$store.state.TagModule.currentTag' (newVal) {
+      let router = this.getAppRouterConfig(newVal.id)
+      this.setRouter(router)
+    }
+  },
   methods: {
     ...mapGetters([
       'getCurrentRouter',
       'getCurrentTag',
       'getCurrentMenu',
       'getAppConfigTree',
-      'getTagList'
+      'getTagList',
+      'getInstalledApps'
     ]),
     ...mapMutations([
       'setRouter',
       'addTag',
+      'removeTag',
       'setCurrentTag',
       'setCurrentMenu'
     ]),
@@ -83,18 +95,23 @@ export default {
       let configs = this.$store.state.AppRouterConfigModule.configs
       return configs.find(config => config.id === id)
     },
-    changeMenu (id) {
+    changeMenu (id, silence) {
       let router = this.getAppRouterConfig(id)
-      this.setRouter(router)
-      let tag = {id: router.id, title: router.title}
-      this.addTag(tag)
-      this.setCurrentTag(tag)
+      let tag = {id: router.id, title: router.title, isDefault: router.isDefault}
+      this.setCurrentMenu(tag)
+      if (!silence) {
+        this.addTag(tag)
+        this.setCurrentTag(tag)
+      }
     },
     changeTag (tag) {
-      let router = this.getAppRouterConfig(tag.id)
-      this.setRouter(router)
       this.setCurrentTag(tag)
       this.setCurrentMenu(tag)
+    },
+    closeTag (tag) {
+      this.removeTag(tag)
+      let id = this.getCurrentTag().id
+      this.changeMenu(id, true)
     }
   },
   components: { headComponent, menuComponent, tag, ground }

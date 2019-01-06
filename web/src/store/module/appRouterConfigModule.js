@@ -1,23 +1,27 @@
 // import API from '@/api/appStore'
 
 /**
- * {id: 'id', user: 'userKey', title: 'title',app: 'appKey', parent: 'id', isDefault: true}
- * {id: 'id', user: 'userKey', title: 'title', app: 'appKey', parent: 'id'}
+ * {id: 'id', user: 'userKey', title: 'title',app: 'appID', parent: 'id', isDefault: true}
+ * {id: 'id', user: 'userKey', title: 'title', app: 'appID', parent: 'id'}
  */
 const state = {
   configs: [
-    {id: '1', user: 'userKey', title: 'home',app: 'appKey', parent: '', isDefault: true},
-    {id: '2', user: 'userKey', title: 'App Store',app: 'appKey', parent: '', isDefault: true},
-    {id: '3', user: 'userKey', title: 'App Router Config',app: 'appKey', parent: '', isDefault: true},
-    {id: '4', user: 'userKey', title: 'App List',app: 'appKey', parent: '', isDefault: true},
-    {id: '5', user: 'userKey', title: 'App1',app: 'appKey', parent: '4', isDefault: false},
-    {id: '6', user: 'userKey', title: 'App2',app: 'appKey', parent: '4', isDefault: false},
-    {id: '7', user: 'userKey', title: 'App3',app: 'appKey', parent: '4', isDefault: false},
-    {id: '8', user: 'userKey', title: 'App4',app: 'appKey', parent: '4', isDefault: false},
-  ]
+    {id: '1', user: 'userKey', icon: 'ios-paper-outline', title: 'home',app: 'appID', parent: '', isGroup: false, isDefault: true},
+    {id: '2', user: 'userKey', icon: 'ios-paper-outline', title: 'App Store',app: 'appStore', parent: '', isGroup: false, isDefault: true},
+    {id: '3', user: 'userKey', icon: 'ios-paper-outline', title: 'App Router Config',app: 'appRouterConfig', isGroup: false, parent: '', isDefault: false},
+    {id: '4', user: 'userKey', icon: 'ios-paper-outline', title: 'App List',app: 'appID', parent: '', isGroup: true, isDefault: true},
+    {id: '5', user: 'userKey', icon: 'ios-paper-outline', title: 'App1',app: 'dataentry', parent: '4', isGroup: false, isDefault: false},
+    {id: '6', user: 'userKey', icon: 'ios-paper-outline', title: 'App2',app: 'appID', parent: '4', isGroup: false, isDefault: false},
+    {id: '7', user: 'userKey', icon: 'ios-paper-outline', title: 'App3',app: 'appID', parent: '4', isGroup: false, isDefault: false},
+    {id: '8', user: 'userKey', icon: 'ios-paper-outline', title: 'App4',app: 'appID', parent: '4', isGroup: false, isDefault: false}
+  ],
+  currentConfig: null
 }
 
 const getters = {
+  getAppConfigList (state) {
+    return state.configs
+  },
   getAppConfigTree (state) {
     let tree = []
     let mapper = {}
@@ -37,6 +41,9 @@ const getters = {
       }
     })
     return tree
+  },
+  getCurrentConfig (state) {
+    return state.currentConfig
   }
 }
 
@@ -49,7 +56,7 @@ const mutations = {
       state.configs.push(config)
     }
   },
-  deleteConfig (state, delConfig) {
+  deleteConfig (state, id) {
     let mapper = {}
     state.configs.forEach(config => {
       mapper[config.id] = config
@@ -58,7 +65,7 @@ const mutations = {
     let i = 0
     while (i < state.configs.length) {
       let config = state.configs[i]
-      if (config.id === delConfig.id || set.has(config.id)) {
+      if (config.id === id || set.has(config.id)) {
         state.configs.splice(i, 1)
       } else {
         let temp = []
@@ -66,7 +73,7 @@ const mutations = {
         while (config.parent) {
           config = mapper[config.parent]
           temp.push(config.id)
-          if (config.id === delConfig.id) {
+          if (config.id === id) {
             temp.forEach(id => set.add(id))
             state.configs.splice(i, 1)
             deleted = true
@@ -85,6 +92,12 @@ const mutations = {
       if (index > -1) {
         state.configs.splice(index, 1, config)
       }
+    }
+  },
+  setCurrentConfig (state, id) {
+    let config = state.configs.find(config => config.id === id)
+    if (config) {
+      state.currentConfig = config
     }
   }
 }

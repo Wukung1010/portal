@@ -27,7 +27,7 @@ export default {
       'handleLogin'
     ]),
     handleSubmit ({ userName, password }) {
-      this.handleLogin({ userName, password }).then(res => {
+      this.handleLogin({ userName, password }).then(() => {
         this.$router.push({
           name: 'main'
         })

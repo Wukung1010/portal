@@ -36,7 +36,7 @@
             :data-route-item="item"
             @on-close="close(item)"
             @click.native="handleClick(item)"
-            :closable="item.isDefault"
+            :closable="!item.isDefault"
             :color="isCurrentTag(item) ? 'primary' : 'default'"
             @contextmenu.prevent.native="contextMenu(item, $event)"
           >{{ item.title }}</Tag>
@@ -120,9 +120,8 @@ export default {
     },
     handleClose (current) {
     },
-    close (route) {
-      let res = this.list.filter(item => !routeEqual(route, item))
-      this.$emit('on-close', res, undefined, route)
+    close (tag) {
+      this.$emit('closeTag', tag)
     },
     handleClick (item) {
       this.$emit('changeTag', item)

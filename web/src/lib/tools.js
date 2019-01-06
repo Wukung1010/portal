@@ -40,3 +40,13 @@ export function setCookies (id, data, time) {
 export function getCookies (id) {
 
 }
+
+/**
+ * @description 生成新的GUID
+ */
+export function GUID () {
+  return `${S4()}${S4()}-${S4()}-${S4()}-${S4()}-${S4()}${S4()}${S4()}`
+}
+function S4 () {
+  return (((1 + Math.random()) * 0x10000) | 0).toString(16).substring(1);
+}
