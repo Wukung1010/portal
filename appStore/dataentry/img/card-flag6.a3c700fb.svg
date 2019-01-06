@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="图标6" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-4" transform="translate(3.000000, 4.000000)" fill="#666666" fill-rule="nonzero">
+            <path d="M3,1 L3,0 L7,0 L7,1 L3,1 Z M9,1 L9,0 L13,0 L13,1 L9,1 Z M15,1 L15,0 L19,0 L19,1 L15,1 Z M21,1 L21,0 L25,0 L25,1 L21,1 Z M27,1 L27,0 L31,0 L31,1 L27,1 Z M33,1 L33,0 L35,0 L35,1 L33,1 Z" id="Line"></path>
+            <polygon id="Line-Copy-3" points="4 34 4 33 8 33 8 34"></polygon>
+            <path d="M0,4 L1,4 L1,7 L0,7 L0,4 Z M0,9 L1,9 L1,13 L0,13 L0,9 Z M0,15 L1,15 L1,19 L0,19 L0,15 Z M0,21 L1,21 L1,25 L0,25 L0,21 Z M0,27 L1,27 L1,30 L0,30 L0,27 Z" id="Line-Copy"></path>
+            <path d="M37,4 L38,4 L38,8 L37,8 L37,4 Z M37,10 L38,10 L38,11.1053627 L37,11.1053627 L37,10 Z" id="Line-Copy-2"></path>
+        </g>
+        <g id="Group-2" transform="translate(14.000000, 17.000000)">
+            <path d="M21,31 L21,1 L2,1 C1.44771525,1 1,1.44771525 1,2 L1,30 C1,30.5522847 1.44771525,31 2,31 L21,31 Z M2,0 L22,0 L22,32 L2,32 C0.8954305,32 1.3527075e-16,31.1045695 0,30 L0,2 C-1.3527075e-16,0.8954305 0.8954305,2.02906125e-16 2,0 Z" id="Rectangle-33" fill="#666666" fill-rule="nonzero"></path>
+            <path d="M25,1 L25,31 L34,31 C34.5522847,31 35,30.5522847 35,30 L35,2 C35,1.44771525 34.5522847,1 34,1 L25,1 Z" id="Path" fill="#E7F5F9"></path>
+            <path d="M25,1 L25,31 L34,31 C34.5522847,31 35,30.5522847 35,30 L35,2 C35,1.44771525 34.5522847,1 34,1 L25,1 Z M24,0 L34,0 C35.1045695,-2.02906125e-16 36,0.8954305 36,2 L36,30 C36,31.1045695 35.1045695,32 34,32 L24,32 L24,0 Z" id="Rectangle-2-Copy" fill="#17A1CA" fill-rule="nonzero"></path>
+            <path d="M25,13 L25,20 L24,20 L24,13 L24,12 L32,12 L32,13 L25,13 Z" id="Combined-Shape" fill="#17A1CA" transform="translate(28.000000, 16.000000) rotate(-225.000000) translate(-28.000000, -16.000000) "></path>
+            <rect id="Rectangle-6" fill="#666666" x="21" y="1" width="1" height="30"></rect>
+            <rect id="Rectangle-6-Copy" fill="#666666" x="10" y="1" width="1" height="30"></rect>
+            <rect id="Rectangle-5" fill="#666666" x="1" y="16" width="20" height="1"></rect>
+            <rect id="Rectangle-5-Copy-3" fill="#666666" x="1" y="8" width="20" height="1"></rect>
+            <rect id="Rectangle-5-Copy" fill="#666666" x="1" y="24" width="20" height="1"></rect>
+        </g>
+        <polygon id="Path" fill="#BCBCBC" points="43 2 38 2 38 7 43 7"></polygon>
+        <polygon id="Path" fill="#BCBCBC" points="6 35 1 35 1 40 6 40"></polygon>
+        <polygon id="Path" fill="#BCBCBC" points="6 2 1 2 1 7 6 7"></polygon>
+        <path d="M43,2 L38,2 L38,7 L43,7 L43,2 Z M43,1 C43.5522847,1 44,1.44771525 44,2 L44,7 C44,7.55228475 43.5522847,8 43,8 L38,8 C37.4477153,8 37,7.55228475 37,7 L37,2 C37,1.44771525 37.4477153,1 38,1 L43,1 Z M6,35 L1,35 L1,40 L6,40 L6,35 Z M6,34 C6.55228475,34 7,34.4477153 7,35 L7,40 C7,40.5522847 6.55228475,41 6,41 L1,41 C0.44771525,41 0,40.5522847 0,40 L0,35 C0,34.4477153 0.44771525,34 1,34 L6,34 Z M6,2 L1,2 L1,7 L6,7 L6,2 Z M6,1 C6.55228475,1 7,1.44771525 7,2 L7,7 C7,7.55228475 6.55228475,8 6,8 L1,8 C0.44771525,8 0,7.55228475 0,7 L0,2 C0,1.44771525 0.44771525,1 1,1 L6,1 Z" id="Combined-Shape" fill="#666666" fill-rule="nonzero"></path>
+        <rect x="0" y="0" width="50" height="50"></rect>
+    </g>    
+</svg>

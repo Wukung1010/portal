@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="图标4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M15,12 L43,12 L43,13 L15,13 L15,12 Z M11,16 L12,16 L12,20.5 C12,20.7761424 11.7761424,21 11.5,21 C11.2238576,21 11,20.7761424 11,20.5 L11,16 Z M40.5,45 L43,45 L43,46 L40.5,46 C40.2238576,46 40,45.7761424 40,45.5 C40,45.2238576 40.2238576,45 40.5,45 Z M46,16 L47,16 L47,42 L46,42 L46,16 Z" id="Combined-Shape" fill="#666666" transform="translate(29.000000, 29.000000) scale(1, -1) translate(-29.000000, -29.000000) "></path>
+        <g id="Group-2" transform="translate(0.000000, 1.000000)">
+            <path d="M2,1 L6,1 L6,33 L2,33 C1.44771525,33 1,32.5522847 1,32 L1,2 C1,1.44771525 1.44771525,1 2,1 Z" id="Rectangle-2-Copy-4" fill="#E0E0E0"></path>
+            <rect id="Rectangle-2-Copy-5" fill-opacity="0.1" fill="#17A1CA" x="7" y="16" width="30" height="9"></rect>
+            <path d="M2,1 C1.44771525,1 1,1.44771525 1,2 L1,32 C1,32.5522847 1.44771525,33 2,33 L36,33 C36.5522847,33 37,32.5522847 37,32 L37,2 C37,1.44771525 36.5522847,1 36,1 L2,1 Z M2,0 L36,0 C37.1045695,-2.02906125e-16 38,0.8954305 38,2 L38,32 C38,33.1045695 37.1045695,34 36,34 L2,34 C0.8954305,34 1.3527075e-16,33.1045695 0,32 L0,2 C-1.3527075e-16,0.8954305 0.8954305,2.02906125e-16 2,0 Z" id="Rectangle-8" fill="#666666" fill-rule="nonzero"></path>
+            <path d="M18.1213203,20 L15.8284271,17.7071068 L16.5355339,17 L19.363961,19.8284271 L20.0710678,20.5355339 L16.5355339,24.0710678 L15.8284271,23.363961 L18.1923882,21 L11,21 L11,20 L18.1213203,20 Z" id="Combined-Shape" fill="#17A1CA"></path>
+            <path d="M30.1213203,20 L27.8284271,17.7071068 L28.5355339,17 L31.363961,19.8284271 L32.0710678,20.5355339 L28.5355339,24.0710678 L27.8284271,23.363961 L30.1923882,21 L23,21 L23,20 L30.1213203,20 Z" id="Combined-Shape-Copy" fill="#17A1CA" transform="translate(27.535534, 20.535534) scale(-1, 1) translate(-27.535534, -20.535534) "></path>
+            <rect id="Rectangle-6-Copy" fill="#666666" x="21" y="8" width="1" height="7"></rect>
+            <rect id="Rectangle-6-Copy-3" fill="#666666" x="6" y="1" width="1" height="32"></rect>
+            <rect id="Rectangle-6-Copy-2" fill="#666666" x="21" y="26" width="1" height="7"></rect>
+            <rect id="Rectangle-5" fill="#666666" x="7" y="15" width="30" height="1"></rect>
+            <rect id="Rectangle-5-Copy-3" fill="#666666" x="7" y="7" width="30" height="1"></rect>
+            <rect id="Rectangle-5-Copy" fill="#666666" x="7" y="25" width="30" height="1"></rect>
+        </g>
+        <polygon id="Path" fill="#BCBCBC" points="9 43 9 48 14 48 14 43"></polygon>
+        <polygon id="Path" fill="#BCBCBC" points="44 10 44 15 49 15 49 10"></polygon>
+        <polygon id="Path" fill="#BCBCBC" points="44 43 44 48 49 48 49 43"></polygon>
+        <path d="M9,43 L9,48 L14,48 L14,43 L9,43 Z M9,42 L14,42 C14.5522847,42 15,42.4477153 15,43 L15,48 C15,48.5522847 14.5522847,49 14,49 L9,49 C8.44771525,49 8,48.5522847 8,48 L8,43 C8,42.4477153 8.44771525,42 9,42 Z M44,10 L44,15 L49,15 L49,10 L44,10 Z M44,9 L49,9 C49.5522847,9 50,9.44771525 50,10 L50,15 C50,15.5522847 49.5522847,16 49,16 L44,16 C43.4477153,16 43,15.5522847 43,15 L43,10 C43,9.44771525 43.4477153,9 44,9 Z M44,43 L44,48 L49,48 L49,43 L44,43 Z M44,42 L49,42 C49.5522847,42 50,42.4477153 50,43 L50,48 C50,48.5522847 49.5522847,49 49,49 L44,49 C43.4477153,49 43,48.5522847 43,48 L43,43 C43,42.4477153 43.4477153,42 44,42 Z" id="Combined-Shape" fill="#666666" fill-rule="nonzero"></path>
+        <rect x="0" y="0" width="50" height="50"></rect>
+    </g>    
+</svg>

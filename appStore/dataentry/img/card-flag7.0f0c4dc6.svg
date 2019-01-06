@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="图标7" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M41,8 L41,14.5 C41,14.7761424 40.7761424,15 40.5,15 C40.2238576,15 40,14.7761424 40,14.5 L40,8 L41,8 Z M37,4 L37,5 L7,5 L7,4 L37,4 Z M11.5,37 C11.7761424,37 12,37.2238576 12,37.5 C12,37.7761424 11.7761424,38 11.5,38 L7,38 L7,37 L11.5,37 Z M4,8 L4,34 L3,34 L3,8 L4,8 Z" id="Combined-Shape" fill="#666666"></path>
+        <g id="Group-2" transform="translate(14.000000, 17.000000)">
+            <rect id="Rectangle-2-Copy" fill="#E0E0E0" x="1" y="1" width="34" height="12"></rect>
+            <path d="M15.0038855,31 L15.0038855,13 L35,13 L35,2 C35,1.44771525 34.5522847,1 34,1 L2,1 C1.44771525,1 1,1.44771525 1,2 L1,30 C1,30.5522847 1.44771525,31 2,31 L15.0038855,31 Z M2,0 L34,0 C35.1045695,-2.02906125e-16 36,0.8954305 36,2 L36,14 L16.0038855,14 L16.0038855,32 L2,32 C0.8954305,32 1.3527075e-16,31.1045695 0,30 L0,2 C-1.3527075e-16,0.8954305 0.8954305,2.02906125e-16 2,0 Z" id="Rectangle-13" fill="#666666" fill-rule="nonzero"></path>
+            <rect id="Rectangle-5" fill="#666666" x="1" y="13" width="14" height="1"></rect>
+            <rect id="Rectangle-28" fill="#17A1CA" x="19" y="31" width="17" height="1"></rect>
+            <g id="笔" transform="translate(29.242253, 23.319906) rotate(11.000000) translate(-29.242253, -23.319906) translate(23.742253, 14.819906)">
+                <polygon id="Path" fill="#17A1CA" fill-rule="nonzero" points="0.190808995 16.9816272 0.263895483 13.7565586 2.83009933 15.2922015"></polygon>
+                <polygon id="Path" fill="#E7F5F9" points="8.84543617 3.33598876 7.230154 2.36939141 1.63041222 12.422059 3.24573284 13.3886776"></polygon>
+                <path d="M8.84543617,3.33598876 L7.230154,2.36939141 L1.63041222,12.422059 L3.24573284,13.3886776 L8.84543617,3.33598876 Z M3.61737665,14.7764431 L0.285035833,12.7823483 L6.85851398,0.981627183 L10.190809,2.9756983 L3.61737665,14.7764431 Z" id="Shape" fill="#17A1CA" fill-rule="nonzero"></path>
+            </g>
+            <rect id="Rectangle-5-Copy" fill="#666666" x="1" y="22" width="14" height="1"></rect>
+        </g>
+        <polygon id="Path" fill="#BCBCBC" points="43 2 38 2 38 7 43 7"></polygon>
+        <polygon id="Path" fill="#BCBCBC" points="6 35 1 35 1 40 6 40"></polygon>
+        <polygon id="Path" fill="#BCBCBC" points="6 2 1 2 1 7 6 7"></polygon>
+        <path d="M43,2 L38,2 L38,7 L43,7 L43,2 Z M43,1 C43.5522847,1 44,1.44771525 44,2 L44,7 C44,7.55228475 43.5522847,8 43,8 L38,8 C37.4477153,8 37,7.55228475 37,7 L37,2 C37,1.44771525 37.4477153,1 38,1 L43,1 Z M6,35 L1,35 L1,40 L6,40 L6,35 Z M6,34 C6.55228475,34 7,34.4477153 7,35 L7,40 C7,40.5522847 6.55228475,41 6,41 L1,41 C0.44771525,41 0,40.5522847 0,40 L0,35 C0,34.4477153 0.44771525,34 1,34 L6,34 Z M6,2 L1,2 L1,7 L6,7 L6,2 Z M6,1 C6.55228475,1 7,1.44771525 7,2 L7,7 C7,7.55228475 6.55228475,8 6,8 L1,8 C0.44771525,8 0,7.55228475 0,7 L0,2 C0,1.44771525 0.44771525,1 1,1 L6,1 Z" id="Combined-Shape" fill="#666666" fill-rule="nonzero"></path>
+        <rect x="0" y="0" width="50" height="50"></rect>
+    </g>    
+</svg>

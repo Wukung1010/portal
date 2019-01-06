@@ -1,0 +1,8 @@
+{
+  "id": "appStore",
+  "name": "应用商店",
+  "author": "sunxianfeng",
+  "version": "v0.1",
+  "url": "./app.bundle.js",
+  "isDefault": true
+}

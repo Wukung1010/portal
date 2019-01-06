@@ -1,0 +1,7 @@
+{
+  "id": "home",
+  "name": "首页",
+  "author": "sunxianfeng",
+  "version": "v0.1",
+  "url": "./index.js"
+}

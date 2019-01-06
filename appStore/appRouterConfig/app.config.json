@@ -1,0 +1,8 @@
+{
+  "id": "appRouterConfig",
+  "name": "应用路由配置",
+  "author": "sunxianfeng",
+  "version": "v0.1",
+  "url": "./app.bundle.js",
+  "isDefault": false
+}
